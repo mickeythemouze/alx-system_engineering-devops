@@ -1,2 +1,2 @@
 #!/bin/bash
-set | printenv
+echo -e "$(set) \n" "$(printenv) \n"
