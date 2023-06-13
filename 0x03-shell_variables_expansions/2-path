@@ -1,2 +1,2 @@
 #!/bin/bash
-set -C $PATH="/action"
+set $PATH="/action"
