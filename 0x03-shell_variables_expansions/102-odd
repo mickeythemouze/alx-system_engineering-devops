@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' | uniq -f1 -d | tr -d '0-9:'
+grep -n '' | grep -E '^[0-9]*[02468]:' | tr -d '0-9:'
