@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '\n' '@' | tr '@' '\n'
+grep -n '' | uniq -f1 -d | tr -d '0-9:'
