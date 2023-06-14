@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '\n' 'g' | tr 'g' '\n'
+tr '\n' '@' | tr '@' '\n'
